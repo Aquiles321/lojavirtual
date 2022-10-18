@@ -1,0 +1,364 @@
+body{
+	color: #333333;
+	font-family: "lucida Sans Unicode", "Lucida Grande", Sans-serif; 
+} 
+
+/* Atribuindo uma cor para a parte principal do site, cor preta*/
+
+
+
+
+.menu-opcoes ul{
+	font-size:15px;
+
+	/* tamanho das letras do menu opções, da lista não ordenada. */
+
+}
+
+.menu-opcoes a{
+	color: #003366;
+
+/* Efeito no passar do mouse */
+
+}
+
+
+.menu-opcoes ul li{
+display: inline-block;
+margin-left:90px;
+
+/* Tipo de caixa de renderização utilizada por um elemento*/
+
+}
+
+
+
+.container{
+	border:1px solid darkgray;
+	margin:auto;
+	margin-top:auto;
+	width:auto;
+	height:auto;
+	background-color:darkgray; 
+	padding-top:auto;
+	padding-bottom:auto;
+	border-top:auto;
+	border-bottom:auto;
+	border-right:auto;
+
+/* Definindo: bordas em cima, em baixo, no lado direito e esquerdo, largura, altura, cor de fundo e preenchimento do conteiner*/ 
+                      
+}
+
+
+
+header{
+	position:relative;
+
+	/* posicionando o cabeçalho */
+
+}
+
+/*  Configurando o Carrosel*/
+
+.carrosel{
+	width:400;
+	height:250px;
+	margin:50px auto;
+	overflow: hidden;
+	box-shadow: 10px 10px 1px rgb(0, 0, 0,0);	
+}
+
+.carrosel ul{
+ list-style: none;
+ width:1200px;
+ height:250px;
+ display: flex;
+ 
+}
+
+
+.carrosel li{
+	position: relative;
+	animation: slide 15s infinite ease-out;
+}
+
+@Keyframes slide{
+	0%{left:0px}
+    20%{left:0px}
+
+	30%{left:-400px}
+    50%{left:-400}
+
+	60%{left:-800px}
+
+	100%{left:0px}
+
+
+}
+
+
+
+
+
+.current-item{
+	opacity:1px ;
+}
+
+
+
+.busca,
+.menu-departamentos{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right:10px;
+	width:230px;
+	float:left;
+	border-top:solid;
+	border-bottom:solid;
+	border-right:solid ;
+	border-left:solid ;
+	margin-top:1px ;
+
+/* Definindo: bordas em cima, em baixo, no lado direito e esquerdo, largura, altura, 
+   cor de fundo, preenchimento, posição do menu departamento e do Busca*/ 
+                      
+
+}
+
+.busca{
+	margin-top: 10px;
+
+/*  Separando o menu buca do  container */	
+}
+
+
+.menu-departamentos{
+clear:left;  
+/* Essa propriedade específica se um elemento pode ter elementos flutuantes ao seu lado, 
+ ou se deve ser movido para baixo dele. */
+
+}
+
+.busca{
+	border-top-left-radius: 4px; /*Bordas do topo do lado esquerdo arredondadas*/ 
+
+	border-top-right-radius: 4px; /* bordas do topo arredondadas do lado direito*/ 
+
+	bor
+}
+
+
+.busca h2, 
+.busca form, 
+.menu-departamento h2{
+margin:10px;
+
+/* Espaçamento fora do conteúdo */
+
+}
+
+
+.busca h2{
+	text-align: center;
+
+	/* Alinhando o texto de busca */
+}
+
+
+
+.menu-departamentos li {
+background-color: white;
+margin-bottom: 1px;/* Espaçamento fora do conteúdo para baixo */
+padding: 5px 10px;/* Espaçamento dentro do conteúdo */
+}
+
+.menu-departamentos a {
+	color: #333333;
+	text-decoration:none; 
+
+/* Efeito no passar do mouse */	
+}
+
+.busca input {
+vertical-align:middle;
+border: solid;
+
+/* Posicionando o input */
+}
+
+
+.busca input[type=search]{
+	width: 170px;
+
+}
+
+.destaque{
+	margin-top:10px;
+	 
+}
+
+.menu-departamentos{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+.painel {
+margin: 10px 0;
+padding: 10px;
+width: auto;
+}
+
+
+.novidades{
+	float:left;
+}
+
+.mais-vendidos{
+	float: right;
+}
+
+.painel li {
+display: inline-block;
+vertical-align: top;
+width: auto;
+
+margin: 2px;
+padding-bottom: 10px;
+}
+
+
+.painel li:hover{
+transform:scale(1.2) rotate(-5deg);
+}
+
+
+
+.painel h2{
+	text-shadow: 1px 1px 2px rgb(255, 255, 255, 0.8);
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom:10px;  
+}
+
+
+.painel a{
+	color:#333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration:none; 
+}
+
+
+.novidades{
+background-color: #f5dcdc;
+/*background: linear-gradient(#f5dcdc, #bebef4);
+*/}
+
+.mais-vendidos{ 
+background-color: #dcdcf5;
+}
+
+
+footer{
+	background-image: url(img/fundo-rodape.png);
+	clear: both;
+	padding: 20px 0;
+}
+
+
+footer .container{
+	position:relative; 
+}
+	
+
+.social a {
+/* tamanho da imagem */
+height: 32px;
+width: 32px;
+
+/* image replacement */
+display: block;
+text-indent: -9999px;
+
+}
+
+
+.social{
+	position: absolute;
+	top:12px;
+	right:0;
+}
+
+
+.social li{
+	float: left;
+	margin-left:25px; 
+}
+
+
+
+.social a[href*="facebook.com"]{
+background-image: url(img/facebook.png);
+}
+
+
+.social a[href*="twitter.com"]{
+background-image: url(img/twitter.png);
+}
+
+
+.social a[href*="plus.google.com"]{
+background-image: url(img/googleplus.png);
+}
+
+
+/*Menu-opções*/
+
+.menu-opcoes a:hover {
+color: #007dc6;
+}
+.menu-opcoes a:active{
+	color:#867dc6; 
+}
+
+.menu-departamentos li ul{
+display:none; 
+
+}
+.menu-departamentos li:hover ul{
+	display:block; 
+}
+
+
+.menu-departamentos ul ul li{
+	background-color:#dcdcdc; 
+}
+
+
+.menu-departamentos li li a:before{
+	content:'-';
+}
+
+/* Efeitos nos painéis.*/
+
+.painel{
+	border-radius:4px;
+	box-shadow: 1px 1px 4px #999; 
+}
+
+
+.painel h2{
+	text-shadow: 3px 3px 2px #fff; 
+}
+
+
+.painel li:hover {
+box-shadow: 0 0 5px #333;
+transition: box-shadow 0.7s;
+}
+

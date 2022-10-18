@@ -1,0 +1,197 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	box-sizing:border-box;
+
+	/* Resetando os espaços padrões dos navegadores */
+}
+
+
+
+
+body{
+	background:darkgrey;
+	color:black;
+	font-weight:500;
+	display:flex;
+	min-height:100vh;
+
+/* Configurando a cor de fundo, a cor das letras, moldando os elementos do conteiner*/
+}
+
+main{
+	width:50vw ;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+
+
+/* Configurando o main site*/
+
+}
+
+
+main h1{
+	color: black;
+	font-size: 3rem;
+	margin-bottom:3rem;
+
+/* Configurando o título do site*/
+
+}
+
+
+main .social-media a{
+	text-decoration: none;
+}
+
+main .social-media{
+	display:flex;
+	align-items:center;
+}
+
+
+
+main .social-media img{
+	width:36px;
+	margin-left:3rem;
+	
+}
+
+
+main .social-media a: first-child img{
+	margin-left:0;
+}
+
+
+/* Estilizando a classe alternative */
+
+main .alternative{
+	margin-top: 1rem;
+
+/* Afantando dos incones superiores*/
+} 
+
+
+/*main .alternative span{
+font-size: 1.1rem;
+font-weight: 400;
+color: black;
+position: relative;
+
+}
+
+
+
+main .alternative span::before, main .alternative::after{
+	position: absolute;
+	content:'';
+	height:1px;
+	width:100px;
+	background: black;
+	bottom:50%;
+	right:50px;
+
+} 
+
+
+
+
+
+
+
+/*Iniciando  o formulário*/
+
+main form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/*Configurando as label*/
+
+
+main form label{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+/* Estilizando a span do label */ 
+
+main form label span{
+	font-size: 1.1rem;
+	margin-top:2rem;
+}
+
+
+/*Estilizando o input*/
+
+main form input{
+	width: 300px;
+	height: 50px;
+	padding: 0 0.5rem;
+	margin-top: 1rem;
+	outline: none;
+	font-size:1rem;
+	border: solid 1px black;
+	border-radius:8px;
+}
+
+
+/*Estilizando o botaão de login*/
+
+main form input[type="submit"]{
+	cursor: pointer;
+	width:50%;
+	margin-top:4rem;
+	border: none;
+	border-radius:32px ;
+	background: gray ;
+	color: white;
+	font-size:1.1rem ;
+	transition: all .3s ease-in-out;
+}
+
+/*Colocando efeito no passar do mouse*/
+
+main form input[type="submit"]:hover {
+
+background: blue;
+
+}
+
+
+/* Estilizando a imagem e o circulo */
+
+
+section.imagem{
+	display: flex;
+	align-items:flex-end;
+	padding:4rem ;
+
+
+}
+
+section.imagem{
+	width:90%;
+
+}
+
+/*Estilizando o circulo*/
+
+section.imagem .circle{
+	position:absolute;
+	height:100% ;
+	width:100% ;
+	background:linear-gradient(45deg,#e8cbc0, #636fa4);
+	top:0;
+	left:0;
+	clip-path:circle(35% at right 80%);
+	z-index: -1;
+}
