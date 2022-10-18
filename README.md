@@ -1,2 +1,2 @@
 # Site de uma loja virtual
-Site em desenvolvimento com as tecnologia: HTML, CSS e JAVASCRIPT...  
+site em desenvolvimento com as tecnologias: HTML, CSS e JAVASCRIPT.
