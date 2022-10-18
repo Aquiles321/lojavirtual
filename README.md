@@ -1,2 +1,2 @@
-# Site-da-Niran
- 
+# Site de uma loja virtual
+Site em desenvolvimento com as tecnologia: HTML, CSS e JAVASCRIPT...  
